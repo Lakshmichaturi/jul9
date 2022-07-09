@@ -10,6 +10,6 @@ for i in s:
     if(temp):
         x=x+i
 for i in x:
-    if i.isalpha():
+    if i.isdigit():
         o=o+i
 print(o)
